@@ -19,12 +19,6 @@ imagery, and a polished user experience.
 -   **Flexbox**\
 -   **Google Fonts (Poppins)**
 
-## 📸 Preview
-
-(Add image here)
-
-![Login Form UI](Images/preview.png)
-
 ## 📁 Folder Structure
 
     Login-Form/
@@ -48,9 +42,6 @@ Run in browser:
 
     index.html
 
-## 💡 Live Demo
-
-(Add your GitHub Pages link here)
 
 ## 🙌 Credits
 
