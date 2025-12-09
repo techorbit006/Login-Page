@@ -1,0 +1,107 @@
+:root{
+    --primary-color: #d9d7d5;
+    --secondary-color: #68a972;
+    --accent-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.login-container{
+    background-image: url('/Images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-card{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-left-panel{
+    padding: 20px;
+}
+.login-right-panel{
+    background-image: url('/Images/plant.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    border-radius: 0 20px 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+.right-card{
+    text-align: center;
+    background: rgba(153 153 153 / 40%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    width: 70%;
+    height: 200px;
+    color: white;
+    border: 1px solid var(--primary-color);
+}
+.right-card p{
+    margin-top: 12px;
+    font-style: italic;
+    font-size: 13px;
+}
+.secondary-color{
+    color: var(--secondary-color);
+}
+.welcome-headings{
+    text-align: center;
+    margin: 30px 0;
+}
+.input-area{
+    display: flex;
+    flex-direction: column;
+}
+.forgot-password{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.login-button{
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    border:0;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.message_1{
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0;
+    color: rgb(105, 105, 105);
+}
+.message_1 a{
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+.message_2{
+    text-align: center;
+    font-size: 10px;
+    margin: 20px 0;
+    color: rgb(105, 105, 105);
+}
+.input-field{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(235, 246, 249);
+}
